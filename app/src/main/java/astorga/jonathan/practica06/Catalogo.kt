@@ -136,6 +136,7 @@ class PeliculaAdapter: BaseAdapter {
             intento.putExtra("header", pelicula.header)
             intento.putExtra("sinopsis", pelicula.sinopsis)
             intento.putExtra("numbersSeats",(20-pelicula.seats.size))
+            intento.putExtra("pos", pe)
             context!!.startActivity(intento)
         }
         return vista

@@ -389,12 +389,11 @@
 
     <Button
         android:id="@+id/btnConfirm"
-        android:layout_width="wrap_content"
+        android:layout_width="176dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_button"
-        android:text="Confirm"
-        android:paddingHorizontal="15dp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
-        />
+        android:background="@drawable/round_button"
+        android:paddingHorizontal="15dp"
+        android:text="Confirm" />
 </LinearLayout>
